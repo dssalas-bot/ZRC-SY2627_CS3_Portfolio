@@ -14,10 +14,12 @@ class Hero:
     def take_damage(self, amount):
         self.hp = self.hp - amount
         return self.hp
+arthur = Hero("arthur", 100)
+morgana = Hero("morgana", 100)
 
 arthur.take_damage(10)
 
- print(arthur.hp)
+print(arthur.hp)
 print(morgana.hp)
 
         # TODO: subtract `amount` from this hero's hp
