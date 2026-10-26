@@ -1,42 +1,42 @@
 class animal:
     def __init__(self, name):
-        self.__name = name
+        self.name = name
 
     def eat(self):
-        print(f"{self.__name} is eating.")
+        print(f"{self.name} is eating.")
 
     def make_sound(self):
-        print(f"{self.__name} is making a sound.")
+        print(f"{self.name} is making a sound.")
 
 class lion(animal):
     def __init__(self, name):
         super().__init__(name)
 
     def eat(self):
-        print(f"{self.__name} eats fresh meat")
+        print(f"{self.name} eats fresh meat")
 
     def make_sound(self):
-        print(f"{self.__name} roars")
+        print(f"{self.name} roars")
 
 class elephant(animal):
     def __init__(self, name):
         super().__init__(name)
 
     def eat(self):
-        print(f"{self.__name} eats grass and fruits")
+        print(f"{self.name} eats grass and fruits")
 
     def make_sound(self):
-        print(f"{self.__name} trumpets")
+        print(f"{self.name} trumpets")
 
 class monkey(animal):
     def __init__(self, name):
         super(). __init__(name)
 
     def eat(self):
-        print(f"{self.__name} eats banananas")
+        print(f"{self.name} eats banananas")
 
     def make_sound(self):
-        print(f"{self.__name} chatters")
+        print(f"{self.name} chatters")
 
 animal1 = animal("Generic Animal")
 lion1 = lion("Simba")
